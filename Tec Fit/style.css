@@ -1,6 +1,6 @@
 body {
     color: #f7f7f7;
-    background-color: #373737;
+    background-color:#000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 20% 0;
@@ -23,11 +23,12 @@ header{
 :root {
     --primary-color: #f7f7f7;
     --secondary-color: #0b0404;
-    --text-dark: #020617;
-    --text-light: #000000;
+    --text-dark: #7e818b;
+    --text-light: #b4acac;
     --white: #ffffff;
-    --gradient-1: linear-gradient(to right, #cfcfcf, #8f8f8f, #5e5e5e);
-    --gradient-2: linear-gradient(to right, #b0b0b0, #7a7a7a, #4a4a4a); 
+    --gradient-1: linear-gradient(to right, #333333, #555555, #777777);
+    --gradient-2: linear-gradient(to right, #222222, #444444, #666666);
+    
     --max-width: 1200px;
 
 }
@@ -275,13 +276,13 @@ body.open .Tec-icon::after {
 
 .header__container h1::before {
     position: absolute;
-    content: "GROW YOUR STRENGTH";
+    content: " INSPIRAÇÃO MOTIVAÇÃO DETERMINAÇÃO";
     top: -5rem;
     left: -5rem;
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 800;
     line-height: 10rem;
-    color: rgba(0, 0, 0, 0.05);
+    color: rgba(194, 191, 191, 0.05);
     z-index: -1;
 }
 
@@ -307,9 +308,8 @@ body.open .Tec-icon::after {
 .header__image img {
     max-width: 700px;
     margin-inline: auto;
+    margin-left: 100px;
 }
-
-
 
 @media (width > 768px) {
     header {
