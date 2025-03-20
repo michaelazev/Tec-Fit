@@ -245,17 +245,21 @@ body.open .Tec-icon::after {
 
 .barra-topo .botoes button,
 .header__btn .login {
-    background-color: #888; /* Ajuste a cor conforme necessário */
-    border: none;
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #ffd900f5; /* Borda amarela */
     padding: 10px 20px;
     color: white;
-    border-radius: 5px;
+    border-radius: 25px; /* Borda arredondada */
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .barra-topo .botoes button:hover,
 .header__btn .login:hover {
-    background-color: #555; /* Ajuste a cor conforme necessário */
+    background-color: #ffd900a5; /* Fundo amarelo ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
 }
 
 .header__container {
